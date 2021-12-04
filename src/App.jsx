@@ -1,10 +1,16 @@
 import React, { useState, useRef } from "react";
-import { Stage, Layer, Line } from "react-konva";
+import { Stage, Layer, Line, Image } from "react-konva";
 import clock from "./images/clock.png";
+import useImage from 'use-image';
 
 const App = () => {
   const [lines, setLines] = useState([]);
   const isDrawing = useRef(false);
+
+  const ClockImage = () => {
+    const [image] = useImage(clock);
+    return <Image image={image} width={250} height={250} x={200} y={75} opacity={0.1} />;
+  };
 
   const handleMouseDown = (e) => {
     isDrawing.current = true;
@@ -102,7 +108,6 @@ const App = () => {
     <div className="container">
       <h1>Нарисуйте часы</h1>
       <div className="canvas-container">
-        <img src={clock} alt="часы" className="clock" />
         <div className="canvas">
           <Stage
             width={650}
@@ -123,6 +128,8 @@ const App = () => {
                   opacity={1}
                 />
               ))}
+              <ClockImage />
+
             </Layer>
           </Stage>
         </div>
