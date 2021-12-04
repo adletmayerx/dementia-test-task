@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dementia-test-task/static/css/main.c0aed220.chunk.css",
+    "main.js": "/dementia-test-task/static/js/main.ca8c81a7.chunk.js",
+    "main.js.map": "/dementia-test-task/static/js/main.ca8c81a7.chunk.js.map",
+    "runtime-main.js": "/dementia-test-task/static/js/runtime-main.8dd68cab.js",
+    "runtime-main.js.map": "/dementia-test-task/static/js/runtime-main.8dd68cab.js.map",
+    "static/js/2.efd7ae61.chunk.js": "/dementia-test-task/static/js/2.efd7ae61.chunk.js",
+    "static/js/2.efd7ae61.chunk.js.map": "/dementia-test-task/static/js/2.efd7ae61.chunk.js.map",
+    "static/js/3.72787589.chunk.js": "/dementia-test-task/static/js/3.72787589.chunk.js",
+    "static/js/3.72787589.chunk.js.map": "/dementia-test-task/static/js/3.72787589.chunk.js.map",
+    "index.html": "/dementia-test-task/index.html",
+    "static/css/main.c0aed220.chunk.css.map": "/dementia-test-task/static/css/main.c0aed220.chunk.css.map",
+    "static/js/2.efd7ae61.chunk.js.LICENSE.txt": "/dementia-test-task/static/js/2.efd7ae61.chunk.js.LICENSE.txt",
+    "static/media/clock.67d837c0.png": "/dementia-test-task/static/media/clock.67d837c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dd68cab.js",
+    "static/js/2.efd7ae61.chunk.js",
+    "static/css/main.c0aed220.chunk.css",
+    "static/js/main.ca8c81a7.chunk.js"
+  ]
+}

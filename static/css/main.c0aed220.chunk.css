@@ -1,0 +1,2 @@
+.container{justify-content:flex-start;margin:0 auto;width:calc(100% - 100px)}.canvas-container,.container{display:flex;flex-direction:column;align-items:center}.canvas-container{position:relative;justify-content:center;margin:85px auto 0}.canvas{top:50;left:50;background-color:grey;opacity:.6;margin-top:-350px}.clock{width:280px;height:280px;opacity:.6}.save-button{align-self:flex-end;margin-top:50px}.links-container{align-self:flex-start;display:flex;flex-direction:column;justify-content:flex-start;grid-gap:10px;gap:10px}
+/*# sourceMappingURL=main.c0aed220.chunk.css.map */
